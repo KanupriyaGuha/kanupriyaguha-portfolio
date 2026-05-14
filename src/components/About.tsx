@@ -26,17 +26,23 @@ export function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="glass glass-hover rounded-2xl p-8 flex flex-col justify-between"
+          className="glass glass-hover rounded-2xl p-7 flex flex-col gap-6"
         >
           <div>
-            <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-violet-600 to-cyan-500 flex items-center justify-center mb-5 shadow-lg shadow-violet-600/30">
-              <GraduationCap className="h-6 w-6 text-white" />
+            <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-violet-600 to-cyan-500 flex items-center justify-center mb-4 shadow-lg shadow-violet-600/30">
+              <GraduationCap className="h-5 w-5 text-white" />
             </div>
             <div className="text-xs uppercase tracking-widest text-muted-foreground mb-2">Education</div>
-            <div className="font-semibold text-lg">MS Data Science</div>
-            <div className="text-muted-foreground">Rowan University</div>
+            <div className="font-semibold">MS Data Science</div>
+            <div className="text-sm text-muted-foreground">Rowan University</div>
+            <div className="text-xs text-violet-400 mt-1">Class of 2025</div>
           </div>
-          <div className="text-sm text-violet-400 mt-6">Class of 2025</div>
+          <div className="pt-5 border-t border-white/5">
+            <div className="font-semibold">BS Computer Applications</div>
+            <div className="text-sm text-muted-foreground">Mount Carmel College (Autonomous)</div>
+            <div className="text-xs text-muted-foreground/80">Bengaluru, India</div>
+            <div className="text-xs text-cyan-400 mt-1">Nov 2022</div>
+          </div>
         </motion.div>
       </div>
     </Section>
