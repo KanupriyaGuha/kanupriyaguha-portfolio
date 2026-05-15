@@ -142,11 +142,12 @@ function FeaturedCard({ p }: { p: Project }) {
           <div className="md:col-span-2 hidden md:flex items-center justify-center">
             <div className="relative h-56 w-56">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-violet-600 to-cyan-500 opacity-30 blur-2xl" />
-              <div className="relative h-full w-full glass rounded-3xl flex items-center justify-center font-mono text-sm text-muted-foreground">
-                <div className="text-center">
-                  <div className="text-5xl font-bold text-gradient mb-2">DDF</div>
-                  <div className="text-[10px] uppercase tracking-[0.3em] text-violet-400/70">Weekly Drops</div>
-                </div>
+              <div className="relative h-full w-full glass rounded-3xl flex items-center justify-center p-6 bg-white/95">
+                <img
+                  src={ddfLogo}
+                  alt="DataDropFriday logo"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
             </div>
           </div>
