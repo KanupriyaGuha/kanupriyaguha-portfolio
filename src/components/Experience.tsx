@@ -12,24 +12,14 @@ type Role = {
 
 const roles: Role[] = [
   {
-    title: "ML Engineer — NLP & LLM Projects",
-    company: "Independent / Contract",
-    location: "Remote, USA",
-    period: "Jun 2025 – Present",
-    bullets: [
-      "Fine-tuned BERT-based sentiment model (88.14% F1), deployed via FastAPI for real-time classification.",
-      "Engineered production RAG pipeline (LangChain + ChromaDB, 500-char chunking, top-4 retrieval), deployed on Streamlit Cloud with zero hallucination tolerance.",
-      "Built end-to-end MLflow experiment tracking across 3 models (75.4% peak accuracy), automated drift detection flagging 11.7% accuracy drop and triggering retraining.",
-    ],
-  },
-  {
     title: "Data & Technical Systems (Volunteer)",
     company: "Your Hearing Dog Inc.",
     location: "Remote, USA",
     period: "Jun 2025 – Present",
     bullets: [
-      "Developed and maintained web systems (HTML, CSS, JS, WordPress) supporting org workflows.",
-      "Analyzed traffic data for bottlenecks; implemented SEO and analytics improvements.",
+      "Developed and maintained web-based systems using HTML, CSS, JavaScript, and WordPress, supporting organizational workflows and ensuring system reliability through monitoring and backup practices.",
+      "Analyzed user behavior and traffic data to identify performance bottlenecks and optimization opportunities.",
+      "Implemented SEO and analytics-driven improvements, enhancing platform visibility and usability.",
     ],
   },
   {
@@ -38,9 +28,9 @@ const roles: Role[] = [
     location: "Morristown, NJ",
     period: "May – Aug 2024",
     bullets: [
-      "Administered SAP financial system tracking $80K in fellowship funding; SQL-based reporting for 600+ Fellows across 42 states.",
-      "Automated Salesforce CRM workflows for 1,000+ stakeholder records.",
-      "Built Power BI & Tableau dashboards for senior leadership KPI tracking.",
+      "Administered SAP financial system tracking $80K in fellowship funding and delivered SQL-based financial reporting ensuring data integrity, compliance, and audit readiness for a nonprofit serving 600+ Fellows across 42 states.",
+      "Automated Salesforce CRM workflows for 1,000+ stakeholder records through data entry automation and process optimization, improving team efficiency and data accuracy across workflows.",
+      "Designed Power BI and Tableau dashboards on SQL-cleaned datasets to monitor KPIs and program engagement metrics, enabling data-driven decision-making for senior leadership.",
     ],
   },
   {
@@ -49,9 +39,9 @@ const roles: Role[] = [
     location: "Bengaluru, India",
     period: "Jun 2020 – Jul 2023",
     bullets: [
-      "Built 8+ Power BI/Tableau dashboards on SQL-cleaned datasets for 200+ student records.",
-      "Identified at-risk cohorts contributing to 15% pass rate increase over 3 academic years.",
-      "Automated ETL pipelines reducing manual reporting time by 35%.",
+      "Built 8+ Power BI and Tableau dashboards on SQL-cleaned datasets, delivering real-time visibility into performance and attendance trends for 200+ student records across academic, enrollment, and compliance reporting.",
+      "Identified at-risk cohorts across 3 key indicators directly contributing to a 15% increase in pass rates over 3 academic years.",
+      "Designed and automated SQL-based ETL pipelines processing 200+ student records, implementing data quality checks and delivering curated weekly datasets to department heads — reducing manual reporting time by 35%.",
     ],
   },
 ];

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const items = [
-  { Icon: Mail, label: "Email", value: "guhakanupriya@gmail.com", href: "mailto:guhakanupriya@gmail.com" },
+  { Icon: Mail, label: "Email", value: "kanupriyaguha25@gmail.com", href: "mailto:kanupriyaguha25@gmail.com" },
   { Icon: Phone, label: "Phone", value: "856-347-6694", href: "tel:+18563476694" },
   { Icon: MapPin, label: "Location", value: "New York City, NY" },
   { Icon: Github, label: "GitHub", value: "github.com/kanupriyaguha", href: "https://github.com/kanupriyaguha" },
@@ -24,8 +24,7 @@ export function Contact() {
             Let's build something.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-            Open to full-time ML Engineer, Data Scientist, and Applied Scientist roles.
-            F1-OPT authorized to work in the US — no sponsorship required.
+            Let’s connect and build something great together.
           </p>
         </motion.div>
 
@@ -63,7 +62,7 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          href="mailto:guhakanupriya@gmail.com"
+          href="mailto:kanupriyaguha25@gmail.com"
           className="inline-flex items-center gap-3 gradient-button px-8 py-4 rounded-full text-base font-medium text-white"
         >
           <Mail className="h-5 w-5" /> Send me an email
