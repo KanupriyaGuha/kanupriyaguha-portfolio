@@ -14,9 +14,8 @@ export function About() {
           className="md:col-span-2 glass glass-hover rounded-2xl p-8 md:p-10"
         >
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
-            I'm a <span className="text-foreground">Data Engineer and ML Engineer</span> with 3+ years of
-            experience building scalable data pipelines, NLP systems, and analytics dashboards. Currently on
-            <span className="text-foreground"> F1-OPT</span>, MS in Data Science from Rowan University (2025).
+            I'm a <span className="text-foreground">Data Engineer</span> with 3+ years of
+            experience building scalable data pipelines, NLP systems, and analytics dashboards. MS in Data Science from Rowan University (2025).
             I specialize in <span className="text-foreground">PySpark, Delta Lake, LLMs, RAG,</span> and
             end-to-end ML systems.
           </p>
