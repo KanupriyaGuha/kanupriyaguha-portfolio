@@ -69,7 +69,7 @@ export function Contact() {
         </motion.a>
       </div>
       <div className="mx-auto max-w-7xl mt-32 pt-8 border-t border-white/5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Kanupriya Guha. Built with React, Tailwind & Framer Motion.
+        © 2026 Kanupriya Guha.
       </div>
     </section>
   );
