@@ -7,14 +7,14 @@ const cards = [
     label: "LinkedIn",
     url: "https://linkedin.com/in/kanupriyaguha",
     handle: "linkedin.com/in/kanupriyaguha",
-    qr: "https://chart.googleapis.com/chart?chs=240x240&cht=qr&chl=https://linkedin.com/in/kanupriyaguha",
+    qr: "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://linkedin.com/in/kanupriyaguha",
     Icon: Linkedin,
   },
   {
     label: "GitHub",
     url: "https://github.com/kanupriyaguha",
     handle: "github.com/kanupriyaguha",
-    qr: "https://chart.googleapis.com/chart?chs=240x240&cht=qr&chl=https://github.com/kanupriyaguha",
+    qr: "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/kanupriyaguha",
     Icon: Github,
   },
 ];

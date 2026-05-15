@@ -2,6 +2,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 import { MouseEvent, useRef } from "react";
 import { Section } from "./Section";
+import ddfLogo from "@/assets/datadropfriday-logo.png";
 
 type Project = {
   title: string;
@@ -14,7 +15,7 @@ type Project = {
 const featured: Project = {
   title: "DataDropFriday",
   description:
-    "Weekly AI-powered data insights platform delivering data-driven analyses and ML project breakdowns. Built end-to-end: data collection, analysis pipelines, NLP-powered content generation, and a Streamlit dashboard. Demonstrates the full ML product lifecycle — from raw data to published insight.",
+    "A content platform delivering weekly music trend publication tracking what's rising, peaking, and falling across streaming platforms — delivered every Friday through clean, data-driven visuals. Pulling from sources like Apple Music, Spotify, and more, each drop breaks down the top songs, artists, and genres of the week with the cultural context behind the numbers. Think of it as the music industry's pulse, translated into something anyone can actually read.",
   tech: ["Python", "Streamlit", "Pandas", "NLP", "Automated Reporting"],
   github: "https://github.com/kanupriyaguha/DataDropFriday",
 };
@@ -141,11 +142,12 @@ function FeaturedCard({ p }: { p: Project }) {
           <div className="md:col-span-2 hidden md:flex items-center justify-center">
             <div className="relative h-56 w-56">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-violet-600 to-cyan-500 opacity-30 blur-2xl" />
-              <div className="relative h-full w-full glass rounded-3xl flex items-center justify-center font-mono text-sm text-muted-foreground">
-                <div className="text-center">
-                  <div className="text-5xl font-bold text-gradient mb-2">DDF</div>
-                  <div className="text-[10px] uppercase tracking-[0.3em] text-violet-400/70">Weekly Drops</div>
-                </div>
+              <div className="relative h-full w-full glass rounded-3xl flex items-center justify-center p-6 bg-white/95">
+                <img
+                  src={ddfLogo}
+                  alt="DataDropFriday logo"
+                  className="max-h-full max-w-full object-contain"
+                />
               </div>
             </div>
           </div>

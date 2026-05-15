@@ -33,28 +33,42 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10 text-left"
+          className="mb-10 text-left"
         >
-          {items.map((it) => {
-            const inner = (
-              <div className="glass glass-hover rounded-2xl p-5 h-full flex items-center gap-4">
-                <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-violet-600/30 to-cyan-500/30 border border-violet-400/20 flex items-center justify-center shrink-0">
-                  <it.Icon className="h-4 w-4 text-violet-300" />
+          {(() => {
+            const renderCard = (it: typeof items[number]) => {
+              const inner = (
+                <div className="glass glass-hover rounded-2xl p-5 h-full flex items-center gap-4">
+                  <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-violet-600/30 to-cyan-500/30 border border-violet-400/20 flex items-center justify-center shrink-0">
+                    <it.Icon className="h-4 w-4 text-violet-300" />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="text-[10px] uppercase tracking-widest text-muted-foreground mb-0.5">{it.label}</div>
+                    <div className="text-sm font-medium truncate">{it.value}</div>
+                  </div>
                 </div>
-                <div className="min-w-0">
-                  <div className="text-[10px] uppercase tracking-widest text-muted-foreground mb-0.5">{it.label}</div>
-                  <div className="text-sm font-medium truncate">{it.value}</div>
+              );
+              return it.href ? (
+                <a key={it.label} href={it.href} target={it.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer" className="block">
+                  {inner}
+                </a>
+              ) : (
+                <div key={it.label}>{inner}</div>
+              );
+            };
+            const top = items.slice(0, 3);
+            const bottom = items.slice(3);
+            return (
+              <>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                  {top.map(renderCard)}
                 </div>
-              </div>
+                <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                  {bottom.map(renderCard)}
+                </div>
+              </>
             );
-            return it.href ? (
-              <a key={it.label} href={it.href} target={it.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
-                {inner}
-              </a>
-            ) : (
-              <div key={it.label}>{inner}</div>
-            );
-          })}
+          })()}
         </motion.div>
 
         <motion.a
@@ -69,7 +83,7 @@ export function Contact() {
         </motion.a>
       </div>
       <div className="mx-auto max-w-7xl mt-32 pt-8 border-t border-white/5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Kanupriya Guha. Built with React, Tailwind & Framer Motion.
+        © 2026 Kanupriya Guha.
       </div>
     </section>
   );
