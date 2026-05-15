@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const items = [
-  { Icon: Mail, label: "Email", value: "guhakanupriya@gmail.com", href: "mailto:guhakanupriya@gmail.com" },
+  { Icon: Mail, label: "Email", value: "kanupriyaguha25@gmail.com", href: "mailto:kanupriyaguha25@gmail.com" },
   { Icon: Phone, label: "Phone", value: "856-347-6694", href: "tel:+18563476694" },
   { Icon: MapPin, label: "Location", value: "New York City, NY" },
   { Icon: Github, label: "GitHub", value: "github.com/kanupriyaguha", href: "https://github.com/kanupriyaguha" },
