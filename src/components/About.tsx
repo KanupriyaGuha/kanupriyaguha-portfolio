@@ -40,7 +40,7 @@ export function About() {
             <div className="font-semibold">BS Computer Applications</div>
             <div className="text-sm text-muted-foreground">Mount Carmel College (Autonomous)</div>
             <div className="text-xs text-muted-foreground/80">Bengaluru, India</div>
-            <div className="text-xs text-cyan-400 mt-1">Nov 2022</div>
+            <div className="text-xs text-cyan-400 mt-1">Class of 2022</div>
           </div>
         </motion.div>
       </div>
