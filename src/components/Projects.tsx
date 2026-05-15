@@ -15,7 +15,7 @@ type Project = {
 const featured: Project = {
   title: "DataDropFriday",
   description:
-    "Weekly AI-powered data insights platform delivering data-driven analyses and ML project breakdowns. Built end-to-end: data collection, analysis pipelines, NLP-powered content generation, and a Streamlit dashboard. Demonstrates the full ML product lifecycle — from raw data to published insight.",
+    "A content platform delivering weekly music trend publication tracking what's rising, peaking, and falling across streaming platforms — delivered every Friday through clean, data-driven visuals. Pulling from sources like Apple Music, Spotify, and more, each drop breaks down the top songs, artists, and genres of the week with the cultural context behind the numbers. Think of it as the music industry's pulse, translated into something anyone can actually read.",
   tech: ["Python", "Streamlit", "Pandas", "NLP", "Automated Reporting"],
   github: "https://github.com/kanupriyaguha/DataDropFriday",
 };
