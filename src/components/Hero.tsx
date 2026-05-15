@@ -6,16 +6,6 @@ export function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex items-center pt-32 pb-20 px-6 lg:px-10">
       <div className="mx-auto max-w-7xl w-full">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs text-muted-foreground mb-8"
-        >
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_#34d399] animate-pulse" />
-          Available for Data Engineering & ML roles
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
