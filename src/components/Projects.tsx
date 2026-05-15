@@ -2,6 +2,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 import { MouseEvent, useRef } from "react";
 import { Section } from "./Section";
+import ddfLogo from "@/assets/datadropfriday-logo.png";
 
 type Project = {
   title: string;
