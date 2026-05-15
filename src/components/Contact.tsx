@@ -24,8 +24,7 @@ export function Contact() {
             Let's build something.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-            Open to full-time ML Engineer, Data Scientist, and Applied Scientist roles.
-            F1-OPT authorized to work in the US — no sponsorship required.
+            Let’s connect and build something great together.
           </p>
         </motion.div>
 
