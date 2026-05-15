@@ -62,7 +62,7 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          href="mailto:guhakanupriya@gmail.com"
+          href="mailto:kanupriyaguha25@gmail.com"
           className="inline-flex items-center gap-3 gradient-button px-8 py-4 rounded-full text-base font-medium text-white"
         >
           <Mail className="h-5 w-5" /> Send me an email
